@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package com.sellular.user.v1;
+
+option java_multiple_files = true;
+
+message UserEventModel {
+    string source = 1;
+    uint64 event_time = 2;
+    string hostname = 3;
+    string entity_id = 4;
+    Headers headers = 5;
+    Metadata metadata = 6;
+    string event_type = 7;
+    string entity_type = 8;
+    Data data = 9;
+
+    message Headers {
+    }
+
+    message Metadata {
+    }
+
+    message Data {
+        string username = 1;
+        string contact = 2;
+        string email = 3;
+    }
+
+}
