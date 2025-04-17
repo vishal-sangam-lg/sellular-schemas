@@ -5,7 +5,7 @@
 
     <groupId>com.sellular</groupId>
     <artifactId>sellular-event-schemas</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -60,8 +60,8 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
+            <id>github-sellular-schemas</id>
+            <name>GitHub Packages - Sellular Schemas</name>
             <url>https://maven.pkg.github.com/vishal-sangam-lg/sellular-schemas</url>
         </repository>
     </distributionManagement>
