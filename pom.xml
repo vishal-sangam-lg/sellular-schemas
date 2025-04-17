@@ -5,13 +5,13 @@
 
     <groupId>com.sellular</groupId>
     <artifactId>sellular-event-schemas</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packaging>jar</packaging>
 
     <properties>
         <java.version>21</java.version>
-        <protobuf.version>4.30.2</protobuf.version>
-        <kafka.schema.registry.version>7.9.0</kafka.schema.registry.version>
+        <protobuf.version>3.25.5</protobuf.version>
+        <kafka.schema.registry.version>7.5.0</kafka.schema.registry.version>
         <protoc-jar-maven-plugin.version>3.11.4</protoc-jar-maven-plugin.version>
         <build-helper-maven-plugin.version>3.6.0</build-helper-maven-plugin.version>
         <schema.registry.url>http://localhost:8081</schema.registry.url>
